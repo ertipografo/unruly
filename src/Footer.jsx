@@ -19,9 +19,9 @@ export default function Footer() {
 					</p>
 				</div>
 				<div className="flex items-center gap-4 justify-end px-10">
-					<div className="bg-base-500 h-10 w-10 rounded-full" />
-					<div className="bg-base-500 h-10 w-10 rounded-full" />
-					<div className="bg-base-500 h-10 w-10 rounded-full" />
+					<div className="bg-2 h-10 w-10 rounded-full" />
+					<div className="bg-2 h-10 w-10 rounded-full" />
+					<div className="bg-2 h-10 w-10 rounded-full" />
 				</div>
 			</div>
 		</div>
