@@ -126,7 +126,7 @@ export default function App() {
 										style={{
 											"--p": 33,
 											"--b": "60px",
-											"--c": "#00ffc3",
+											"--c": "var(--primary)",
 										}}
 									/>
 								</div>

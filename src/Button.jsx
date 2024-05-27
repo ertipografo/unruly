@@ -3,7 +3,7 @@ export default function Button({ children, variant, onClick, theme }) {
 	const col =
 		theme === "secondary"
 			? "bg-base-200 dark:bg-base-500 text-base-600 dark:text-base-900"
-			: "bg-[#1f00ff] text-base-100";
+			: "bg-cta text-base-100";
 	return (
 		<button
 			onClick={onClick ?? null}

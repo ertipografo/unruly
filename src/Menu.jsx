@@ -21,15 +21,13 @@ export default function Menu() {
 			{menuItems.map((menuArea, idx) => {
 				return (
 					<div key={idx}>
-						<span className="text-3 capitalize mb-4 block">
+						<span className="text-3 capitalize mb-4 block font-bold">
 							{menuArea.title}
 						</span>
 						<div className="flex flex-col gap-2 mb-5">
 							{menuArea.items.map((menuItem, midx) => {
 								const cl =
-									idx === 0 && midx == 1
-										? "text-[#1f00ff]"
-										: "";
+									idx === 0 && midx == 1 ? "text-cta" : "";
 								return (
 									<a
 										href="#"
